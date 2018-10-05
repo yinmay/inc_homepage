@@ -1,0 +1,78 @@
+.playerIndex{
+    
+    .right {
+        .players{
+            display: flex;
+            .player-card{
+                margin: 40px;
+                width: 229px;
+                height: 298px;
+                background: #212D62;
+                opacity: .8;
+                border-radius: 4px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align:center;
+                h4{
+                    color: #fff!important;
+                    font-weight: 300;
+                }
+                .player-unknow{
+                    background: url('./img/Ellipse 8@3x.png');
+                    background-size: cover;
+                    height: 200px;
+                    width: 254px;
+                }
+                .border-facebook{
+                    margin-top: 10px;
+                    width: 195px;
+                    height: 180px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    border-radius: 8px;
+                    text-align: center;
+                    align-items: center;
+                    background: rgba(15,29,64,.35);
+                    .player-messi{
+                        background: url('./img/Rectangle 12@2x.png');
+                        height: 69px;
+                        width: 69px;
+                        margin-bottom: 14px;
+                        margin-top: 6px;
+
+                    }
+                    p{
+                        color:#9CB4FF;
+                        margin-bottom: 14px
+
+                    }
+                    button{
+                        color:#9CB4FF;
+                        padding: 8px 20px;
+                        border-radius: 21.5px;
+                        border: 1px solid #9CB4FF;
+                    }
+
+                }
+                .player-neymar{
+                    background: url('./img/Ellipse 9.png');
+                    background-size: cover;
+                    height: 200px;
+                    width: 254px; 
+                }
+                h4{
+                    font-size: 18px;
+                    margin-bottom: 5px;
+                }
+                p{
+                    font-size: 14px;
+                    color: #9CB4FF;
+                
+                }
+            }
+        }
+    }
+}

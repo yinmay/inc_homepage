@@ -1,0 +1,25 @@
+.IPIndex{
+    text-align: center;
+    .section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        height: 900px;
+    }
+    .paragraph{
+        width: 874px;
+        margin-top: 68px;
+    }
+    .button{
+        margin-top: 40px;
+    }
+    .center{
+        margin-top: 79px;
+        background: url('./img/Group 19@3x.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 379px;
+        width: 1440px;
+    }
+}

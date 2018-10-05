@@ -1,0 +1,23 @@
+.influence{
+    .pic{
+        background: url('./img/Group 18@2x.png');
+            height: 351px;
+            width: 599px;
+            background-repeat: no-repeat;
+            background-size: contain;
+    }
+    .right{
+        padding-left: 48px;
+     padding-right: 48px;
+     &:after{
+         content:'';
+         display: block;
+         clear:both;
+     }
+     .button{
+         float: right;
+
+     }
+       
+    }
+}

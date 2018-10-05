@@ -1,0 +1,35 @@
+.whatIsIndex {
+
+    .right {
+        height: 635px;
+        width: 637px;
+        .earth {
+            background: url('./img/地球.svg');
+            height: 635px;
+            width: 637px;
+            background-repeat: no-repeat;
+            background-size: contain;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .qr-text{
+                margin-top: 20px;
+                height: 36px;
+                line-height: 36px;
+                width: 241px;
+                background: url('./img/Rectangle 10.png');
+                background-repeat: no-repeat;
+                background-size: contain;
+                text-align: center;
+            }
+            .qr-code{
+                height: 153px;
+                width: 153px;
+                background: url('./img/WechatIMG400.png');
+                background-repeat: no-repeat;
+                background-size: contain;
+            }
+        }
+    }
+}
